@@ -1,6 +1,10 @@
 # UserActivityDjango
 This Project Contains models User and ActivityPeriod.
 
+##This code is deployed on AWS EC2 instance.
+http://firstalb-162603180.ap-south-1.elb.amazonaws.com/users/ (http://firstalb-162603180.ap-south-1.elb.amazonaws.com/users/)
+
+
 Prequisites:
 Python3 and pip need to be installed.
 
