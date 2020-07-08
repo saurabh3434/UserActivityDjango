@@ -1,0 +1,37 @@
+# this file is to populate database with dummy data
+- model: activity.ActivityPeriod
+  pk: 1
+  fields:
+    start_time: "2013-03-06T17:41:28+00:00"
+    end_time: "2013-03-16T23:36:12+00:00"
+
+- model: activity.ActivityPeriod
+  pk: 2
+  fields:
+    start_time: "2013-03-16T17:41:28+00:00"
+    end_time: "2013-03-16T23:36:12+00:00"
+
+- model: activity.ActivityPeriod
+  pk: 3
+  fields:
+    start_time: "2013-03-16T17:41:28+00:00"
+    end_time: "2013-03-16T23:36:12+00:00"
+
+
+- model: activity.User
+  pk: "W07QCRPA4"
+  fields:
+    real_name: "Saurabh"
+    tz: "Asia/Kolkata"
+    activity_periods:
+        - 1
+        - 2
+
+- model: activity.User
+  pk: "W012A3CDE"
+  fields:
+    real_name: "Glinda Southgood"
+    tz: "America/Los_Angeles"
+    activity_periods:
+        - 1
+        - 2
