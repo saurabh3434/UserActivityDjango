@@ -4,7 +4,7 @@ This Project Contains models User and ActivityPeriod.
 Prequisites:
 Python3 and pip need to be installed.
 
-# create Virtual Environment:
+### create Virtual Environment:
 pip install vertualenv
 virtualenv virtualenv_name
 
@@ -15,7 +15,7 @@ source virtualenv_name/bin/activate
 virtualenv_name\Scripts\activate
 
 
-#install requiremnts.txt
+### install requiremnts.txt
 pip install -r env_setup/requirements.txt
 
 - Dummy data is in activity/fixtures/dummy_data.yaml. 
